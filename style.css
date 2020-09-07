@@ -4,6 +4,8 @@ body {
   width: 100vw;
   margin:0;
   background-color:white;
+  color: navy;
+  
   
 }
 
@@ -13,10 +15,13 @@ body {
 #thank-you {
   display: none;
 }
-@media (min-width: 768px) {
-  .text-design {
-    font-size: 24px;
-    display:flex;
+
+
+  @media (min-width: 480px) {
+  
+    .etc-content {
+      display: flex;
+    }
 }
 
 
@@ -31,10 +36,8 @@ body {
 }
 
 .numbertext {
-  /* color: #f2f2f2; */
   font-size: 12px;
   padding: 8px 12px;
-  /* position: absolute; */
   top: 0;
 } 
 
@@ -44,13 +47,9 @@ body {
   width:100%;
   margin: 0 auto;
   max-width: 1500px;
-  /* border: 2px solid orange; */
-  /* position: relative; */
-  /* text-align: center; */
   font-family: 'Gayathri', cursive;
-  /* flex-direction: column; */
   font-size: 2.5em;
-  text-shadow: 2px 2px lightslategrey;
+  text-shadow: 4px 4px grey;
   background-image: url("./images/4683.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,29 +59,25 @@ body {
 font-size: 70px;
 text-align: center;
 padding-top: 125px;
+color: #00004d;
 
 
 
 }
 
 .bottom-right {
-  /* bottom: 20%;
-  right: 2%; */
   font-size: 30px;
   text-align: right;
   padding-right: 80px;
-  /* border: 2px solid black; */
+  color: #00004d;
 }
 
 .bottom-left {
   text-align: right;
   padding-right: 80px;
-  /* color: 2px solid black ; */
-  /* bottom: 20%;
-  left: 2%; */
   font-size: 30px;
-  /* border: 2px solid blue; */
-  /* padding-left: 950px; */
+  color:#00004d;
+  
 }
 
 
@@ -106,12 +101,13 @@ form {
   margin: 0 auto;
   padding-top: 50px;
   text-align: center;
+  text-shadow: 4px 4px grey;
   /* padding-top: 80px; */
 
 }
 
 .image-container,.prev:hover,.next:hover {
-  color: navy;
+  color:#00004d;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   
@@ -122,14 +118,23 @@ a {
 }
 
 i {
-  color: navy;
+  color: #00004d;
 }
 
 i:hover {
   
-  color: lightskyblue;
+  color: #1aff1a;
   transition: 0.2s ease-in-out;
 }
+
+#thank-you {
+  color:#ff0066;
+  font-family: 'Gayathri';
+  font-size: 25px;
+  text-align: center;
+ 
+}
+
 
 
 
@@ -148,12 +153,13 @@ i:hover {
 h2 {
   text-align: center;
   font-family: Gayathri;
+  color: #00004d;
 }
 
 .artist-info {
   font-family: Gayathri;
-  text-align: center;
-  /* margin:0 auto; */
+  color:#00004d;
+  
   
 }
 
@@ -166,10 +172,6 @@ h2 {
 }
 
 
-
-/* .prev:hover {
-  cursor: pointer;
-} */
 
 
 
