@@ -4,20 +4,19 @@ body {
   width: 100vw;
   margin:0;
   background-color:white;
-  color: navy;
-  
-  
+  color: navy; 
 }
 
 .text-design {
   font-size: 18px;
 }
+
 #thank-you {
   display: none;
 }
 
 
-  @media (min-width: 480px) {
+@media (min-width: 480px) {
   
     .etc-content {
       display: flex;
@@ -26,7 +25,6 @@ body {
 
 
 .text {
-  /* columns: #f2f2f2; */
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -49,7 +47,7 @@ body {
   max-width: 1500px;
   font-family: 'Gayathri', cursive;
   font-size: 2.5em;
-  text-shadow: 4px 4px grey;
+  text-shadow: 2px 2px grey;
   background-image: url("./images/4683.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,9 +58,6 @@ font-size: 70px;
 text-align: center;
 padding-top: 125px;
 color: #00004d;
-
-
-
 }
 
 .bottom-right {
@@ -77,10 +72,7 @@ color: #00004d;
   padding-right: 80px;
   font-size: 30px;
   color:#00004d;
-  
 }
-
-
 
 form {
   font-family: "Gayathri";
@@ -101,9 +93,6 @@ form {
   margin: 0 auto;
   padding-top: 50px;
   text-align: center;
-  text-shadow: 4px 4px grey;
-  /* padding-top: 80px; */
-
 }
 
 .image-container,.prev:hover,.next:hover {
@@ -135,9 +124,6 @@ i:hover {
  
 }
 
-
-
-
 #image {
   width: 100%;
 }
@@ -166,8 +152,6 @@ h2 {
 .home {
   font-family: Gayathri;
   text-align: center;
-
-  
   
 }
 
