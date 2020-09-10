@@ -51,6 +51,7 @@ body {
   background-image: url("./images/4683.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center, top;
 }
 
 .centered {
