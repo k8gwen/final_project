@@ -1,5 +1,5 @@
 let currentImageIndex = 0
-const images = ['/images/Bird.png','images/abstract_paint.jpg','images/Bear.jpg','images/Mom_Toon_Me.jpeg','images/bubble_sketch.jpg','images/Dusky.JPG','images/denver_paint.jpg','images/dream_doodle.png','images/Gabe_Toon_Me.png','images/Something_Rad_.png','images/triangle_paint.jpg','images/Somethin_Rad.png']
+const images = ['images/Bird.jpg','images/abstract_paint.jpg','images/Bear.jpg','images/Mom_Toon_Me.jpeg','images/bubble_sketch.jpg','images/Dusky.JPG','images/denver_paint.jpg','images/dream_doodle.png','images/Gabe_Toon_Me.png','images/Something_Rad_.png','images/triangle_paint.jpg','images/Somethin_Rad.jpg']
 let image = document.getElementById('image')
 let next = document.getElementById('next')
 if(next) {
